@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins&family=Sacramento&display=swap')
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+.last-container{
+  max-width: 1170px;
+  margin: auto;
+  }
+
+.rowws{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: hsl(192, 100%, 9%);
+  padding: 70px 0px;
+}
+
+.footer-col{
+  width: 22%;
+  padding: 0 15px;
+}
+
+.logoo{
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  filter: invert(98%) sepia(2%) saturate(470%) hue-rotate(211deg) brightness(117%) contrast(100%);
+margin-bottom: 30px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 15px;
+}
+  .footer-col ul li a{
+    margin: 20px 0px;
+    position: relative;
+    bottom: -90px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 10px;
+}
+.pi{
+  margin: 6px 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #bbbbbb;
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+}
+.footer-col .social-links a{
+  margin: 20px 0px;
+    position: relative;
+    bottom: -90px;
+  display:inline-block;
+  height:40px;
+  width:40px;
+  background-color:rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
